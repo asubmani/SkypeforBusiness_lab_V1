@@ -92,9 +92,9 @@
       "VMIPtype": [ "Static", "Static", "Static", "Static", "Static", "Dynamic", "Dynamic" ],
       "VMIPaddr": [ "10.0.0.4", "10.0.0.5", "10.0.0.6", "10.0.0.7", "10.0.0.8", "10.0.1.9", "10.0.1.10" ],
       "VMSubnet": [ "[variables('Vnet1Sub1Name')]", "[variables('Vnet1Sub1Name')]", "[variables('Vnet1Sub1Name')]", "[variables('Vnet1Sub1Name')]", "[variables('Vnet1Sub1Name')]", "[variables('Vnet1Sub2Name')]", "[variables('Vnet1Sub2Name')]" ],
-      "publisher": [ "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftVisualStudio", "MicrosoftVisualStudio" ],
-      "offer": [ "WindowsServer", "WindowsServer", "WindowsServer", "WindowsServer", "WindowsServer", "Windows", "Windows" ],
-      "sku": [ "2012-R2-Datacenter", "2012-R2-Datacenter", "2012-R2-Datacenter", "Windows-Server-Technical-Preview", "2012-R2-Datacenter", "Windows-10-N-x64", "Windows-10-N-x64" ]
+      "publisher": [ "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftWindowsServer", "MicrosoftWindowsServer" ],
+      "offer": [ "WindowsServer", "WindowsServer", "WindowsServer", "WindowsServer", "WindowsServer", "WindowsServer", "WindowsServer" ],
+      "sku": [ "2012-R2-Datacenter", "2012-R2-Datacenter", "2012-R2-Datacenter", "Windows-Server-Technical-Preview", "2012-R2-Datacenter", "2016-Datacenter", "2016-Datacenter" ]
     },
     "tojoindomain": [ "VM-SFB-FE01", "VM-SFB-ADFS-01", "VM-SFB-RP01", "VM-SFB-CL1" ],
     "VM_deployTemplateUri": "[concat(parameters('_artifactsLocation'),'/nested/VM-deploy.json')]",
@@ -600,4 +600,3 @@
   "outputs": {
   }
 }
-
