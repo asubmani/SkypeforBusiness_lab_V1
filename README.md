@@ -18,11 +18,11 @@ Before starting the deployment there is some steps to follow:
 8. You will have to fill some parameters like your storage account name and the sastoken as well as some other mandatory parameters like the dns prefix of your lab. Please remember to use only numbers plus lower case letters for your resource group name because it is concatenated to create a storage account name which support only lower case. Use Western Europe instead of Uk south it doesn't support yet the types of VM's used.
 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fibenbouzid%2FSkypeforBusiness_lab_V1%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fasubmani%2FSkypeforBusiness_lab_V1%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fibenbouzid%2FSkypeforBusiness_lab_V1%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fasubmani%2FSkypeforBusiness_lab_V1%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -32,14 +32,14 @@ You can either deploy through the azure deploy button (which take less time) or 
 The folder structure inside your storage account should look like this
 
 <a >
-<img src="https://raw.githubusercontent.com/ibenbouzid/SkypeforBusiness_lab_V1/master/images/FolderStructure.jpg"/>
+<img src="https://raw.githubusercontent.com/asubmani/SkypeforBusiness_lab_V1/master/images/FolderStructure.jpg"/>
 </a>
 
 
 Here is SfBServer2015 and SfB2016 folders components
 <a >
-<img src="https://raw.githubusercontent.com/ibenbouzid/SkypeforBusiness_lab_V1/master/images/SfBServer2015.jpg"/>
-<img src="https://raw.githubusercontent.com/ibenbouzid/SkypeforBusiness_lab_V1/master/images/SfB2016.jpg"/>
+<img src="https://raw.githubusercontent.com/asubmani/SkypeforBusiness_lab_V1/master/images/SfBServer2015.jpg"/>
+<img src="https://raw.githubusercontent.com/asubmani/SkypeforBusiness_lab_V1/master/images/SfB2016.jpg"/>
 </a>
 
 # Software Download
@@ -60,7 +60,7 @@ https://products.office.com/en-gb/skype-for-business/download-app?tab=tabs-3
      
  "adminPassword": The password for the Administrator account: must be at least 12 caracters
     
-"_artifactsLocation":  The location of resources such as templates and DSC modules that the script is dependent. Don't Change the defaultValue: "https://raw.githubusercontent.com/ibenbouzid/Azure_sfb2015_lab/master"
+"_artifactsLocation":  The location of resources such as templates and DSC modules that the script is dependent. Don't Change the defaultValue: "https://raw.githubusercontent.com/asubmani/Azure_sfb2015_lab/master"
    
  "ShareLocation": the name of your azure storage account - not the url - eg "mystorage" where you created your "skype" folder with all the source files 
  
