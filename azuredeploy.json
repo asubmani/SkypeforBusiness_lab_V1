@@ -56,7 +56,8 @@
       "metadata": {
         "description": "The location of resources such as templates and DSC modules that the script is dependent"
       },
-      "defaultValue": "https://raw.githubusercontent.com/ibenbouzid/SkypeforBusiness_lab_V1/master"
+      "defaultValue": "https://raw.githubusercontent.com/asubmani/SkypeforBusiness_lab_V1/master"
+                      
     },
     "ShareLocation": {
       "type": "string",

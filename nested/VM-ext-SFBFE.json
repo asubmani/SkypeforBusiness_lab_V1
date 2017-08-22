@@ -38,7 +38,7 @@
       "metadata": {
         "description": "The location of resources such as templates and DSC modules that the script is dependent"
       },
-      "defaultValue": "https://raw.githubusercontent.com/ibenbouzid/AzureSfB/master/AzureResourceGroup2"
+      "defaultValue": "https://raw.githubusercontent.com/asubmani/AzureSfB/master/AzureResourceGroup2"
     },
     "_SfBshareLocation": {
       "type": "string",
